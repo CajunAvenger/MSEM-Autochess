@@ -1,0 +1,478 @@
+Game_Temp
+Game_System
+Game_Switches
+Game_Variables
+Game_SelfSwitches
+Game_Screen
+Game_Picture
+Game_Battler 1
+Game_Battler 2
+Game_Battler 3
+Game_BattleAction
+Game_Actor
+Game_Enemy
+Game_Actors
+Game_Party
+Game_Troop
+Game_Map
+Game_CommonEvent
+Game_Character 1
+Game_Character 2
+Game_Character 3
+Game_Event
+Game_Player
+Sprite_Character
+Sprite_Battler
+Sprite_Picture
+Sprite_Timer
+Spriteset_Map
+Spriteset_Battle
+Window_Base
+Window_Selectable
+Window_Command
+Window_Help
+Window_Gold
+Window_PlayTime
+Window_Steps
+Window_MenuStatus
+Window_Item
+Window_Skill
+Window_SkillStatus
+Window_Target
+Window_EquipLeft
+Window_EquipRight
+Window_EquipItem
+Window_Status
+Window_SaveFile
+Window_ShopCommand
+Window_ShopBuy
+Window_ShopSell
+Window_ShopNumber
+Window_ShopStatus
+Window_NameEdit
+Window_NameInput
+Window_InputNumber
+Window_Message
+Window_PartyCommand
+Window_BattleStatus
+Window_BattleResult
+Window_DebugLeft
+Window_DebugRight
+Arrow_Base
+Arrow_Enemy
+Arrow_Actor
+Interpreter 1
+Interpreter 2
+Interpreter 3
+Interpreter 4
+Interpreter 5
+Interpreter 6
+Interpreter 7
+Scene_Title
+Scene_Map
+Scene_Menu
+Scene_Item
+Scene_Skill
+Scene_Equip
+Scene_Status
+Scene_File
+Scene_Save
+Scene_Load
+Scene_End
+Scene_Battle 1
+Scene_Battle 2
+Scene_Battle 3
+Scene_Battle 4
+Scene_Shop
+Scene_Name
+Scene_Gameover
+Scene_Debug
+========~blank
+Console
+
+[[ Global Variables ]]~blank
+Validation
+Database
+Hierarchy
+
+[[ Global Handlers ]]~blank
+Listener
+Timer
+Check Modules
+Supported Emitters
+GameMaster
+Round
+Match
+
+[[ Impacts ]]~blank
+Impact
+Impact_KeyPercent
+Impact_SelfPercent
+Impact Synergy
+Impact_Warhammer
+Impact_Linked
+Impact_Combat
+Impact_LonelyStart
+Impact_Moving
+Impact_Aura
+Impact_Unique
+Shield
+Heal + ManaHeal
+
+[[ GameBoard ]]~blank
+GameBoard
+Hex
+
+[[ AoEs ]]~blank
+AoE
+AoE_Subclasses
+AoE_Timed
+
+[[ Buffs ]]~blank
+Buff
+Buff_Subclasses
+Generic Buffs
+
+[[ Players ]]
+Player_Battler
+Monster_Player
+Minion_Player
+Pool
+Storefront
+
+[[ Auras ]]~blank
+AuraTray
+Aura
+AuraScene
+[[ Arcanum ]]~blank
+ArdysStudy
+AeridasStudy
+FelicesStudy
+RahitsStudy
+SalvaToresStudy
+[[ Emblem ]]~blank
+TimeAfterTime
+HolyWar
+EldersWisdom
+HalcyonDaze
+HeistsMostDaring
+FlightOfThePhoenix
+Dracosoul
+SiftThroughFalseLeads
+[[ Emblem 2 ]]~blank
+Whimsy
+Theocracy
+Villainy
+TheClocktowerProject
+StickyFingers
+MarchOfTheGray
+InLeagueWithDragons
+FractalFindings
+[[ Tinkerer's Friend ]]~blank
+WarriorsDiscipline
+RideIntoTheSunset
+MobilizeTheHeavenly
+InfluenceOfProgenitus
+WitchsInvocation
+TheFrontierBeckons
+SpillingSecrets
+OverwhelmingArmies
+RuleTheWorld
+[[ Synergy Buff ]]~blank
+BlessingOfMorninglight
+InsurgentBallads
+DeadMansParty
+PerfectDistraction
+EternalDeliverance
+EndlessReverie
+TaleOfTwoSons
+HereticsVow
+EndlessRepentance
+MoltenIncubation
+Dragongate
+BeckonDarkness
+ChigauTheRedMarket
+Upstage
+AWideWorldAwaits
+GoldenTouch
+LightningDraw
+GunsAkimbo
+RiteOfLostTimelines
+QuestionableMethods
+CollapsingRealities
+FleetingMoments
+PrismaticLeyline
+Omegalomania
+UnifiedTheory
+ParrotPools
+BuzzardBarrens
+SpectacleOfInnovation
+EndlessAssembly
+TitansWill
+SeasonsOfWar
+Conscription
+LafteriiIngenuity
+GorbesIndex
+IntoTheUnknown
+EndlessExpedition
+Belligerence
+[[ Collect Me ]]~blank
+ChiheisenTerraceOfSerenity
+JourneyThroughKareki
+JourneyToTheOtherworlds
+JourneyToTheZhedina
+ShizenTheThousandSteps
+TaiyohatasDominion
+[[ Walker Special ]]~blank
+AncientCounsel
+BindTheMind
+Brutality
+Candlegift
+DestabilizingTheRifts
+GatheringTheGang
+LostInTheRoses
+MoonlightSanctum
+OneWithSeishin
+PlotsThatSpanRealms
+RightToRule
+[[ Artifact ]]~blank
+BlissfulLull
+ButtressFormation
+CurioPavilion
+CurseOfThePetrified
+EndlessDiscoveries
+EntrancingLight
+FineCraftsmanship
+FlawlessHeist
+HannarusCourage
+Heirloom
+IterativeDesign
+LightWithinShadow
+MysticsMantle
+OraclesPloy
+Petrify
+ReflectedGrandeur
+SuccumbToDreams
+UncoveredSecrets
+VerdantCloak
+[[ Invisible Hand ]]~blank
+AllThatGlitters
+AmberReserves
+ConspiracyOfRavens
+Currency
+Disassociate
+FallbackPlan
+GoldenAge
+KaorsTithe
+IllFatedProfit
+MinersBarracks
+TheFutureIsNow
+UnorthodoxMethods
+
+[[ Unit ]]~blank
+Unit
+Planeswalker
+Unit_Attr
+Unit_Affect
+Unit_AI
+Unit_Ability
+Unit_Other
+Token
+
+[[ Planeswalkers ]]~blank
+Alexa
+Ardy
+Azun
+Eve
+Kunal
+Marianne
+Rahit
+Rain Zai
+Sevid
+Tara
+Xaro
+Ameret
+Daril
+Arina
+Aerida
+Ahl
+Bahum
+Boxue
+Certo
+Eli Windsors
+Helena
+Helene Trant
+Kati
+Mafua
+Xiong Mao
+Lucien
+Karina
+Heddwyn
+Alia
+Felice
+Flynn
+Sha'rador
+Mabil
+Mei
+Menna
+Siraj
+Volta
+Xirix
+Edarna
+Ajani
+Bessie
+Haide
+Naiala
+Sadie Dal
+Salva Tore
+Sesilius
+Tzhai
+Xenocrata
+Mari
+Malextros
+Amitai
+Azamir
+Glitch
+Iviana
+Saia
+Velir
+
+[[ Minions ]]~blank
+Minion_Mannequin
+Minion_Cadre Hawk
+Minion_Brute
+Minion_Fox
+
+[[ Synergy ]]~blank
+SynergyTray
+Synergy
+Aerial
+Akieva
+Alara
+Arcanum
+Artificer
+Assassin
+Bard
+Cat
+Chronomancer
+Cleric
+Commander
+Convergent
+Draconic
+Elder
+Gunslinger
+Investigator
+Mirrorwalker
+Morninglight
+Necromancer
+Rogue
+Scout
+Shaharazad
+Sisters
+Thespian
+Warrior
+Wizard
+Wurm
+
+[[ Artifacts ]]~blank
+ArtifactScene
+ArtifactSprites
+Artifact
+Artifact_SeishinsEdge
+Artifact_FlintlockPistol
+Artifact_Cinderblade
+Artifact_IronSignet
+Artifact_WardedTome
+Artifact_BurnishedPlate
+Artifact_MageweaveCloak
+Artifact_SpiritPendant
+Artifact_TinkerersTools
+[[ Seishin builds ]]~blank
+Artifact_AlenianWarhammer
+Artifact_AukashiElectricLegacy
+Artifact_MerchantsSidearm
+Artifact_LampOfEndlessPossibilities
+Artifact_AcademicsClaymore
+Artifact_DarutusPlow
+Artifact_ExpertBelt
+Artifact_CyrukansCrossblades
+Artifact_HerosAxe
+[[ Flintlock builds ]]~blank
+Artifact_IldrinTheApexBlade
+Artifact_ShimmerhideBoots
+Artifact_AetherlockPistol
+Artifact_WandOfEndlessSpells
+Artifact_ExperimentalBattleArmor
+Artifact_HylesGift
+Artifact_AstrinaTemperedByGlory
+Artifact_SurveyorsRifle
+[[ Cinderblade builds ]]~blank
+Artifact_MonumentToTheFallenMan
+Artifact_AmuletCoin
+Artifact_HimitsuShiguresLegacy
+Artifact_SkeletonShield
+Artifact_PathOfGreatness
+Artifact_DivineChariot
+Artifact_TrickedOutHoverboard
+[[ Signet builds ]]~blank
+Artifact_NexusOfPossibilities
+Artifact_HubOfInnovation
+Artifact_GoldenHelm
+Artifact_BartensJournal
+Artifact_HallowedFragment
+Artifact_TerraformersGlobe
+[[ Tome builds ]]~blank
+Artifact_MaplesJournal
+Artifact_ShiguresYoroi
+Artifact_HelmOfPrinces
+Artifact_GiltworkLegacy
+Artifact_IsochronWand
+[[ Burnsihed builds ]]~blank
+Artifact_DraconicBulwark
+Artifact_NeedleDoll
+Artifact_CrownOfTheUrchinKing
+Artifact_RangersBow
+[[ Cloak builds ]]~blank
+Artifact_DominionCrown
+Artifact_ChamberOfReflections
+Artifact_SeekersGarment
+[[ Pendant builds ]]~blank
+Artifact_BloodguardsHand
+Artifact_ShionoshioOceansVow
+[[ Tools builds ]]~blank
+Artifact_AmbitionsCrown
+[[ Masterpieces ]]~blank
+Artifact_CultivatingSpheres
+Artifact_MirrorOfPossibilities
+Artifact_ThriceFoldedLotus
+[[ Flawless Heist ]]~blank
+Artifact_TomeOfLoss
+Artifact_AmuletOfLoyalties
+Artifact_EldritchEgg
+Artifact_Awestone
+Artifact_AtlasOfWorlds
+[[ Other ]]~blank
+Artifact_Hannarus
+
+[[ Damage ]]~blank
+Damage
+Damage_Subclasses
+
+[[ Sprites ]]~blank
+Bar Sprites
+Sprite_Chess
+Sprite_Artifact
+Sprite_Infobox
+AniInstr
+Animation Documentation
+
+[[ Mouse ]]~blank
+Mouse
+Mouse 2
+Mouse 3
+Mouse Actions
+CloneEvents
+Custom Resolution
+
+Parallel Processor
+Main
