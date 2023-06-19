@@ -245,7 +245,7 @@ class Unit
       @deployed = false
       update_life
       update_mana
-      if @owner.id == 1
+      if @owner.id == 1 and not sprite.disposed?
         @sprite.opacity = 255
         @sprite.add_fade_to(255, $frames_per_second, @sprite.add_schedule)
       end
